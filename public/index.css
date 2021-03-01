@@ -1,0 +1,143 @@
+.nav-wrapper {
+    padding: 0 16rem;
+
+}
+
+.page-footer {
+    margin: 4rem 0 0 0;
+}
+
+.page-footer, .nav-wrapper {
+    background-color: dimgray;
+}
+
+.courses-title, .add-title {
+    color: dimgray;
+}
+
+.courses-title {
+    text-align: center;
+}
+
+.price {
+    font-size: 1.7rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+}
+
+.course img {
+
+    height: auto;
+    width: 60%;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}
+
+.fullDescription {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+hr {
+    width: 100%;
+}
+
+.course-title {
+    text-align: center;
+}
+
+.main-page-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.box-feature {
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 400px;
+    height: 480px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-feature-body img {
+    width: 170px;
+    height: 170px;
+}
+
+.box-feature p {
+    margin: 5px;
+}
+
+.card-action {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.td-center {
+    text-align: center;
+}
+
+.card-action-btn-margin {
+    margin-left: 15px;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.course-form {
+    margin-bottom: 2rem;
+}
+
+.auth {
+    margin-top: 15px;
+}
+
+.tabs .tab a {
+    color: dimgray;
+}
+
+.tabs .tab a:hover {
+    color: black;
+}
+
+.tabs .tab a.active {
+    color: dimgray;
+}
+
+.alert {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: red;
+    text-align: center;
+    background: rgba(255, 0, 0, .3);
+}
+
+.avatar {
+    max-width: 300px;
+    height: auto;
+}
